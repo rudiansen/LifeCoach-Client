@@ -8,15 +8,15 @@
      [java] 	Lastname	: Lampard
      [java] 	Birthdate	: 1978-06-20
      [java] 	Health profile	: 
-     [java] 		mid		: 2
-     [java] 		Measure type	: height
-     [java] 		Measure value	: 87
-     [java] 		Registered date	: 2014-12-27
-     [java] 
-     [java] 		mid		: 19
+     [java] 		mid		: 1
      [java] 		Measure type	: weight
      [java] 		Measure value	: 75
      [java] 		Registered date	: 2015-12-04
+     [java] 
+     [java] 		mid		: 2
+     [java] 		Measure type	: height
+     [java] 		Measure value	: 1.90
+     [java] 		Registered date	: 2014-12-27
      [java] 
      [java] -------------------------------------------------------
      [java] 	Person ID	: 2
@@ -26,7 +26,7 @@
      [java] 	Health profile	: 
      [java] 		mid		: 3
      [java] 		Measure type	: weight
-     [java] 		Measure value	: 1.90
+     [java] 		Measure value	: 87
      [java] 		Registered date	: 2014-12-27
      [java] 
      [java] 		mid		: 4
@@ -69,15 +69,15 @@
      [java] 	Lastname	: Lampard
      [java] 	Birthdate	: 1978-06-20
      [java] 	Health profile	: 
-     [java] 		mid		: 2
-     [java] 		Measure type	: height
-     [java] 		Measure value	: 87
-     [java] 		Registered date	: 2014-12-27
-     [java] 
-     [java] 		mid		: 19
+     [java] 		mid		: 1
      [java] 		Measure type	: weight
      [java] 		Measure value	: 75
      [java] 		Registered date	: 2015-12-04
+     [java] 
+     [java] 		mid		: 2
+     [java] 		Measure type	: height
+     [java] 		Measure value	: 1.90
+     [java] 		Registered date	: 2014-12-27
      [java] 
      [java] Request #3: updatePerson(Person p)
      [java] Change the Firstname to 'Alexander' for the person with Id = 1
@@ -88,15 +88,15 @@
      [java] 	Lastname	: Lampard
      [java] 	Birthdate	: 1978-06-20
      [java] 	Health profile	: 
-     [java] 		mid		: 2
-     [java] 		Measure type	: height
-     [java] 		Measure value	: 87
-     [java] 		Registered date	: 2014-12-27
-     [java] 
-     [java] 		mid		: 19
+     [java] 		mid		: 1
      [java] 		Measure type	: weight
      [java] 		Measure value	: 75
      [java] 		Registered date	: 2015-12-04
+     [java] 
+     [java] 		mid		: 2
+     [java] 		Measure type	: height
+     [java] 		Measure value	: 1.90
+     [java] 		Registered date	: 2014-12-27
      [java] 
      [java] Request #4: createPerson(Person p)
      [java] Create a new person with Id = 50
@@ -133,7 +133,7 @@
      [java] 
      [java] 	Mid		: 3
      [java] 	Measure type	: weight
-     [java] 	Measure value	: 75
+     [java] 	Measure value	: 73.4
      [java] 	Created date	: 2013-06-29 09:12:46
      [java] 
      [java] Request #7: readMeasureTypes()
@@ -181,7 +181,7 @@
      [java] 	Health profile	: 
      [java] 		mid		: 2
      [java] 		Measure type	: height
-     [java] 		Measure value	: 87
+     [java] 		Measure value	: 1.90
      [java] 		Registered date	: 2014-12-27
      [java] 
      [java] 		mid		: 21
