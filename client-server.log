@@ -1,0 +1,210 @@
+     [java] WSDL URL => https://lifecoach-181499.herokuapp.com/ws/people?wsdl
+     [java] 
+     [java] Request #1: getPeopleList()
+     [java] => Results: 
+     [java] -------------------------------------------------------
+     [java] 	Person ID	: 1
+     [java] 	Firstname	: Frank
+     [java] 	Lastname	: Lampard
+     [java] 	Birthdate	: 1978-06-20
+     [java] 	Health profile	: 
+     [java] 		mid		: 2
+     [java] 		Measure type	: height
+     [java] 		Measure value	: 87
+     [java] 		Registered date	: 2014-12-27
+     [java] 
+     [java] 		mid		: 19
+     [java] 		Measure type	: weight
+     [java] 		Measure value	: 75
+     [java] 		Registered date	: 2015-12-04
+     [java] 
+     [java] -------------------------------------------------------
+     [java] 	Person ID	: 2
+     [java] 	Firstname	: John
+     [java] 	Lastname	: Terry
+     [java] 	Birthdate	: 1980-07-12
+     [java] 	Health profile	: 
+     [java] 		mid		: 3
+     [java] 		Measure type	: weight
+     [java] 		Measure value	: 1.90
+     [java] 		Registered date	: 2014-12-27
+     [java] 
+     [java] 		mid		: 4
+     [java] 		Measure type	: height
+     [java] 		Measure value	: 1.85
+     [java] 		Registered date	: 2014-12-27
+     [java] 
+     [java] -------------------------------------------------------
+     [java] 	Person ID	: 3
+     [java] 	Firstname	: Ashley
+     [java] 	Lastname	: Cole
+     [java] 	Birthdate	: 1980-12-20
+     [java] 	Health profile	: N/A
+     [java] -------------------------------------------------------
+     [java] 	Person ID	: 4
+     [java] 	Firstname	: Rio
+     [java] 	Lastname	: Ferdinand
+     [java] 	Birthdate	: 1978-11-07
+     [java] 	Health profile	: N/A
+     [java] -------------------------------------------------------
+     [java] 	Person ID	: 5
+     [java] 	Firstname	: Joe
+     [java] 	Lastname	: Hart
+     [java] 	Birthdate	: 1987-04-19
+     [java] 	Health profile	: N/A
+     [java] -------------------------------------------------------
+     [java] 	Person ID	: 6
+     [java] 	Firstname	: Steven
+     [java] 	Lastname	: Gerrard
+     [java] 	Birthdate	: 1980-05-30
+     [java] 	Health profile	: N/A
+     [java] 
+     [java] 
+     [java] Request #2: readPerson(int id)
+     [java] Read person with Id = 1
+     [java] => Results: 
+     [java] -------------------------------------------------------
+     [java] 	Person ID	: 1
+     [java] 	Firstname	: Frank
+     [java] 	Lastname	: Lampard
+     [java] 	Birthdate	: 1978-06-20
+     [java] 	Health profile	: 
+     [java] 		mid		: 2
+     [java] 		Measure type	: height
+     [java] 		Measure value	: 87
+     [java] 		Registered date	: 2014-12-27
+     [java] 
+     [java] 		mid		: 19
+     [java] 		Measure type	: weight
+     [java] 		Measure value	: 75
+     [java] 		Registered date	: 2015-12-04
+     [java] 
+     [java] Request #3: updatePerson(Person p)
+     [java] Change the Firstname to 'Alexander' for the person with Id = 1
+     [java] => Results: 
+     [java] -------------------------------------------------------
+     [java] 	Person ID	: 1
+     [java] 	Firstname	: Alexander
+     [java] 	Lastname	: Lampard
+     [java] 	Birthdate	: 1978-06-20
+     [java] 	Health profile	: 
+     [java] 		mid		: 2
+     [java] 		Measure type	: height
+     [java] 		Measure value	: 87
+     [java] 		Registered date	: 2014-12-27
+     [java] 
+     [java] 		mid		: 19
+     [java] 		Measure type	: weight
+     [java] 		Measure value	: 75
+     [java] 		Registered date	: 2015-12-04
+     [java] 
+     [java] Request #4: createPerson(Person p)
+     [java] Create a new person with Id = 50
+     [java] => Results: 
+     [java] -------------------------------------------------------
+     [java] 	Person ID	: 50
+     [java] 	Firstname	: David
+     [java] 	Lastname	: Beckam
+     [java] 	Birthdate	: 1987-05-23
+     [java] 	Health profile	: 
+     [java] 		mid		: 20
+     [java] 		Measure type	: weight
+     [java] 		Measure value	: 87
+     [java] 		Registered date	: 2015-12-04
+     [java] 
+     [java] 
+     [java] 
+     [java] Request #5: deletePerson(int personId)
+     [java] Delete person with Id = 6
+     [java] 
+     [java] 
+     [java] Request #6: readPersonHistory(int id, String measureType)
+     [java] Read person History (weight) with personId = 1
+     [java] => Results: 
+     [java] 	Mid		: 1
+     [java] 	Measure type	: weight
+     [java] 	Measure value	: 83
+     [java] 	Created date	: 2012-12-27 18:12:46
+     [java] 
+     [java] 	Mid		: 2
+     [java] 	Measure type	: weight
+     [java] 	Measure value	: 80
+     [java] 	Created date	: 2013-02-26 12:12:46
+     [java] 
+     [java] 	Mid		: 3
+     [java] 	Measure type	: weight
+     [java] 	Measure value	: 75
+     [java] 	Created date	: 2013-06-29 09:12:46
+     [java] 
+     [java] Request #7: readMeasureTypes()
+     [java] => Results: 
+     [java] 	Mid		: 1
+     [java] 	Measure type	: weight
+     [java] 	Measure val type: double
+     [java] 
+     [java] 	Mid		: 2
+     [java] 	Measure type	: height
+     [java] 	Measure val type: double
+     [java] 
+     [java] 	Mid		: 3
+     [java] 	Measure type	: steps
+     [java] 	Measure val type: integer
+     [java] 
+     [java] 	Mid		: 4
+     [java] 	Measure type	: blood pressure
+     [java] 	Measure val type: double
+     [java] 
+     [java] 	Mid		: 5
+     [java] 	Measure type	: heart rate
+     [java] 	Measure val type: integer
+     [java] 
+     [java] 	Mid		: 6
+     [java] 	Measure type	: bmi
+     [java] 	Measure val type: double
+     [java] 
+     [java] Request #8: readPersonMeasure(int id, String measureType, Long mid)
+     [java] Read person Measure (weight) with personId = 1 and mid = 1
+     [java] => Results: 
+     [java] 	Mid		: 1
+     [java] 	Measure type	: weight
+     [java] 	Measure value	: 83
+     [java] 	Created date	: 2012-12-27 18:12:46
+     [java] 
+     [java] Request #9: savePersonMeasure(int id, Measure m)
+     [java] Save new person Measure with personId = 1 and weight = 93.8
+     [java] => Results: 
+     [java] -------------------------------------------------------
+     [java] 	Person ID	: 1
+     [java] 	Firstname	: Alexander
+     [java] 	Lastname	: Lampard
+     [java] 	Birthdate	: 1978-06-20
+     [java] 	Health profile	: 
+     [java] 		mid		: 2
+     [java] 		Measure type	: height
+     [java] 		Measure value	: 87
+     [java] 		Registered date	: 2014-12-27
+     [java] 
+     [java] 		mid		: 21
+     [java] 		Measure type	: weight
+     [java] 		Measure value	: 93.8
+     [java] 		Registered date	: 2015-12-04
+     [java] 
+     [java] Request #10: updatePersonMeasure(int id, Measure m)
+     [java] Update person Measure with personId = 1 and m.mid = 2 with value = 1000
+     [java] => Results: 
+     [java] -------------------------------------------------------
+     [java] 	Person ID	: 1
+     [java] 	Firstname	: Alexander
+     [java] 	Lastname	: Lampard
+     [java] 	Birthdate	: 1978-06-20
+     [java] 	Health profile	: 
+     [java] 		mid		: 2
+     [java] 		Measure type	: height
+     [java] 		Measure value	: 1000
+     [java] 		Registered date	: 2014-12-27
+     [java] 
+     [java] 		mid		: 21
+     [java] 		Measure type	: weight
+     [java] 		Measure value	: 93.8
+     [java] 		Registered date	: 2015-12-04
+     [java] 
