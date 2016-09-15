@@ -10,7 +10,7 @@ The client works simply by invoking all public methods exposed by the server. Al
 
 To run the program, clone this repository on your local machine by following below steps:
 
-1. `git clone https://github.com/rudiansen/LifeCoach-Client.git
+1. `git clone https://github.com/rudiansen/LifeCoach-Client.git`
 2. `cd LifeCoach-Client`
 3. `ant execute.client`
 
