@@ -29,7 +29,7 @@
      [java] 		Measure value	: 87
      [java] 		Registered date	: 2014-12-27
      [java] 
-     [java] 		mid		: 4
+     [java] 		mid		: 5
      [java] 		Measure type	: height
      [java] 		Measure value	: 1.85
      [java] 		Registered date	: 2014-12-27
@@ -110,7 +110,7 @@
      [java] 		mid		: 20
      [java] 		Measure type	: weight
      [java] 		Measure value	: 87
-     [java] 		Registered date	: 2015-12-04
+     [java] 		Registered date	: 2016-09-15
      [java] 
      [java] 
      [java] 
@@ -187,7 +187,7 @@
      [java] 		mid		: 21
      [java] 		Measure type	: weight
      [java] 		Measure value	: 93.8
-     [java] 		Registered date	: 2015-12-04
+     [java] 		Registered date	: 2016-09-15
      [java] 
      [java] Request #10: updatePersonMeasure(int id, Measure m)
      [java] Update person Measure with personId = 1 and m.mid = 2 with value = 1000
@@ -206,5 +206,5 @@
      [java] 		mid		: 21
      [java] 		Measure type	: weight
      [java] 		Measure value	: 93.8
-     [java] 		Registered date	: 2015-12-04
+     [java] 		Registered date	: 2016-09-15
      [java] 
