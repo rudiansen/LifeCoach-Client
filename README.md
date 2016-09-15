@@ -1,6 +1,6 @@
 # LifeCoach Client
 
-This repository contains a web service client which invoke SOAP web service server deployed in the following URL https://lifecoach-181499.herokuapp.com/ws/people?wsdl. It shows some examples of consuming SOAP-based web services methods.
+This repository contains a web service client which invoke SOAP-based web services deployed on the following URL https://lifecoach-181499.herokuapp.com/ws/people?wsdl. It shows some examples of how to consuming SOAP-based web services methods.
 
 ## How does it work?
 
